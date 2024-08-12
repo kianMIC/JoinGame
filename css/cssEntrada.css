@@ -1,0 +1,108 @@
+h2{
+	font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #0c45c5;
+}
+hr{
+	width: 70%;
+	opacity: 0.2;
+}
+div.formEntrada{
+	width: 45%;
+	background: #9eb5e847;
+	margin: 10px auto;
+}
+form#subirEntrada{
+	display: grid;
+    width: 70%;
+    margin: 0 auto;
+}
+label{
+	margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+input, select{
+	height: 25px;
+}
+.msg_save{
+	background-color: #9eb5e8;
+    text-align: center;
+    padding: 5px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+.msg_error{
+	background-color: #df6969;
+    text-align: center;
+    padding: 5px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+						/*AQUI HACEMOS EL CSS PARA LA PREVISUALIZACION DE LA FOTO*/
+.prevPhoto, .prevPhoto2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../img/iconos/up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin: auto;
+	border-radius: 0%;
+}
+.prevPhoto label, .prevPhoto2 label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img, .prevPhoto2 img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notBlock, .upimg2, .notBlock2{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold; 
+	margin-top: 10px;
+}
+.delPhoto, .delPhoto2{
+	color: #FFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: #0c45c5;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+
+					/*CSS DEL BOTON DE ENVIO*/
+button{
+	margin: 20px auto;
+    width: 50%;
+    height: 25px;
+}
